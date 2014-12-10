@@ -1,0 +1,284 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="ec327.riddlerace.Hints"
+    android:padding="10dp"
+    android:background="#FDF3E7">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your hint #1"
+                android:id="@+id/hint1"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#C63D0F" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Knights frequent this location, but not the type you might expect."
+                android:id="@+id/hint1_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#3B3738"
+                android:layout_below="@+id/hint1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your hint #2"
+                android:id="@+id/hint2"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#C63D0F"
+                android:layout_below="@+id/hint1_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The building under the main Boston sign."
+                android:id="@+id/hint2_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#3B3738"
+                android:layout_below="@+id/hint2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your hint #3"
+                android:id="@+id/hint3"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#C63D0F"
+                android:layout_below="@+id/hint2_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can watch one of the top nation teams here."
+                android:id="@+id/hint3_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#3B3738"
+                android:layout_below="@+id/hint3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your hint #4"
+                android:id="@+id/hint4"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#C63D0F"
+                android:layout_below="@+id/hint3_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You can sun bath here while you study."
+                android:id="@+id/hint4_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#3B3738"
+                android:layout_below="@+id/hint4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your hint #5"
+                android:id="@+id/hint5"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#C63D0F"
+                android:layout_below="@+id/hint4_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You wouldn't want to wait in this line in the morning."
+                android:id="@+id/hint5_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#3B3738"
+                android:layout_below="@+id/hint5"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your hint #6"
+                android:id="@+id/hint6"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_below="@+id/hint5_1"
+                android:textColor="#C63D0F"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Here's the startline of the world's largest regatta."
+                android:id="@+id/hint6_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#3B3738"
+                android:layout_below="@+id/hint6"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your hint #7"
+                android:id="@+id/hint7"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#C63D0F"
+                android:layout_below="@+id/hint6_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't step on the seal on your way!!!"
+                android:id="@+id/hint7_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#3B3738"
+                android:layout_below="@+id/hint7"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your hint #8"
+                android:id="@+id/hint8"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#C63D0F"
+                android:layout_below="@+id/hint7_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find a waterfall in the lobby."
+                android:id="@+id/hint8_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#3B3738"
+                android:layout_below="@+id/hint8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your hint #9"
+                android:id="@+id/hint9"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#C63D0F"
+                android:layout_below="@+id/hint8_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BU love locks."
+                android:id="@+id/hint9_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#3B3738"
+                android:layout_below="@+id/hint9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your hint #10"
+                android:id="@+id/hint10"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="#C63D0F"
+                android:layout_below="@+id/hint9_1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You'll NEVER find a table here during lunch time."
+                android:id="@+id/hint10_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="#3B3738"
+                android:layout_below="@+id/hint10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="Continue"
+                android:id="@+id/continue1"
+                android:background="#3B3738"
+                android:textColor="#FDF3E7"
+                android:layout_below="@+id/hint10_1"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+    <!--<ScrollView-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="fill_parent"-->
+<!--android:id="@+id/scrollView"-->
+<!--android:fillViewport="true"-->
+<!--android:layout_toEndOf="@+id/hint2"-->
+<!--android:layout_toRightOf="@+id/hint2"-->
+<!--android:layout_alignParentTop="true"/>-->
+
+

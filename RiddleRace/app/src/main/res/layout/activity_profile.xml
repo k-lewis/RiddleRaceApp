@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ec327.riddlerace.Profile"
+    android:background="#FDF3E7">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="Riddle Race"
+    android:textSize="55sp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="12dp"
+    android:id="@+id/textView" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="Sign in with Facebook to proceed:"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="55dp"
+    android:id="@+id/textView2" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="*Note: This app will only read public profile information and will NEVER post on your behalf."
+    android:textSize="12sp"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="1dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:id="@+id/textView3" />
+
+<com.facebook.widget.LoginButton
+    android:id="@+id/authButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="35dp"
+    />
+
+<Button
+    android:id="@+id/enterButton"
+    android:layout_width="78dp"
+    android:layout_height="48dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:text="Enter!"
+    android:visibility="invisible" />
+
+<!--<TextView-->
+<!--android:id="@+id/userInfoTextView"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:layout_marginLeft="20dp"-->
+<!--android:layout_marginTop="20dp"-->
+<!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+<!--android:visibility="invisible"-->
+<!--/>-->
+
+
+
+</LinearLayout>
